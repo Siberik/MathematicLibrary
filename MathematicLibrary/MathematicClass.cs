@@ -25,9 +25,5 @@ namespace MathematicLibrary
         {
         return x + y;
         }
-        public static int Div(int x, int y)
-        {
-            return x / y;
-        }
     }
 }
