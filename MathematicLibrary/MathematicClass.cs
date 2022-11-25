@@ -19,6 +19,27 @@ namespace MathematicLibrary
         /// Второе число
         /// </param>
         /// <returns>
-   
+        /// Сумма чисел
+        /// </returns>
+        public static int  Sum(int x, int y)
+        {
+        return x + y;
+        }
+        /// <summary>
+        /// Нахождение остатка деления
+        /// </summary>
+        /// <param name="x">
+        /// Делимое
+        /// </param>
+        /// <param name="y">
+        /// Делитель
+        /// </param>
+        /// <returns>
+        /// Остаток от деления
+        /// </returns>
+        public static int Div(int x, int y)
+        {
+            return x / y;
+        }
     }
 }
