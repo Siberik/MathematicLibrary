@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicLibrary", "MathematicLibrary\MathematicLibrary.csproj", "{5C7358FA-F5F5-4529-84A2-E076C43295CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicLibraryTests", "MathematicLibraryTests\MathematicLibraryTests.csproj", "{CDE6A2CF-C440-4018-80C1-FC5C9BDAADA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C7358FA-F5F5-4529-84A2-E076C43295CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7358FA-F5F5-4529-84A2-E076C43295CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7358FA-F5F5-4529-84A2-E076C43295CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE6A2CF-C440-4018-80C1-FC5C9BDAADA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE6A2CF-C440-4018-80C1-FC5C9BDAADA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE6A2CF-C440-4018-80C1-FC5C9BDAADA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE6A2CF-C440-4018-80C1-FC5C9BDAADA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
