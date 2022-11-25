@@ -22,5 +22,20 @@ namespace MathematicLibraryTests
             //Assert
             Assert.AreEqual(expected,actual);
         }
+        /// <summary>
+        /// Деление двух и двух
+        /// </summary>
+        [TestMethod]
+        public void Div_2And2_Returned1()
+        {
+            //Arrange
+            int x = 2;
+            int y = 2;
+            int expected = 1;
+            //Act
+            int actual = MathematicClass.Div(x, y);
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
