@@ -41,5 +41,21 @@ namespace MathematicLibrary
         {
             return x / y;
         }
+        
+         /// <summary>
+        /// Нахождение от умножения
+        /// </summary>
+        /// <param name="x">
+        /// Первое число
+        /// </param>
+        /// <param name="y">
+        /// Второе число
+        /// </param>
+        /// <returns>
+        /// результат
+        /// </returns>
+        public static int  Mult(int x, int y)
+        {
+        return x * y;
     }
 }
